@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,0.8968837535014006) 48%, rgba(94,31,123,1) 59%, rgba(148,187,233,1) 100%);
+}
+
+
+.postCards h3{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
